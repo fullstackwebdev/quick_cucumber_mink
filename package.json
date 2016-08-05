@@ -1,0 +1,16 @@
+{
+  "name": "test-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-mink --require ./features/step_definitions/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cucumber-mink": "^1.4.1",
+    "protractor": "^4.0.2",
+    "protractor-cucumber-framework": "^0.6.0"
+  }
+}
